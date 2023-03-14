@@ -33,7 +33,7 @@ const displayEntries = () => {
     <th class="th">email</th>
     <th class="th">password</th>
     <th class="th">dob</th>
-    <th class="th">acceptTerms</th>
+    <th class="th">acceptTerms?</th>
   </tr>${tableEntries}</table>`;
   //let details = document.getElementById("user-entries");
   //details.innerHTML = table;
