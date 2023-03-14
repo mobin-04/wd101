@@ -83,7 +83,7 @@ datem.addEventListener("change", () => {
     datem.setCustomValidity("");
   }
 });
-const emailCell = document.getElementById("email");
+const email = document.getElementById("email");
 email.addEventListener("input", () => validate(email));
 function validate(ml) {
   if (ml.validate.typeMismatch) {
